@@ -1,0 +1,113 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
+/* ============ MODERN PREMIUM DESIGN SYSTEM ============ */
+@layer components {
+  /* Primary Gradients - Mint Green */
+  .gradient-mint {
+    @apply bg-gradient-to-r from-emerald-200 via-emerald-400 to-emerald-600;
+  }
+
+  .gradient-mint-dark {
+    @apply bg-gradient-to-r from-emerald-500 via-emerald-600 to-emerald-700;
+  }
+
+  .gradient-pink {
+    @apply bg-gradient-to-r from-pink-400 via-rose-500 to-red-700;
+  }
+
+  .gradient-gold {
+    @apply bg-gradient-to-r from-yellow-300 via-amber-500 to-orange-700;
+  }
+
+  .gradient-purple {
+    @apply bg-gradient-to-r from-violet-400 via-purple-500 to-purple-700;
+  }
+
+  .gradient-rose {
+    @apply bg-gradient-to-r from-rose-300 via-red-500 to-red-700;
+  }
+
+  /* Premium Glass Morphism */
+  .glass-premium {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl;
+  }
+
+  .glass-premium-dark {
+    @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  /* Neon Glow Effects */
+  .glow-cyan {
+    @apply shadow-[0_0_30px_rgba(0,212,255,0.4)] hover:shadow-[0_0_60px_rgba(0,212,255,0.6)] transition-all duration-300;
+  }
+
+  .glow-lime {
+    @apply shadow-[0_0_30px_rgba(0,245,160,0.4)] hover:shadow-[0_0_60px_rgba(0,245,160,0.6)] transition-all duration-300;
+  }
+
+  .glow-pink {
+    @apply shadow-[0_0_30px_rgba(255,0,110,0.4)] hover:shadow-[0_0_60px_rgba(255,0,110,0.6)] transition-all duration-300;
+  }
+
+  /* Animated text */
+  .animate-text {
+    @apply bg-gradient-to-r from-emerald-400 via-emerald-300 to-emerald-500 bg-clip-text text-transparent;
+    background-size: 200% 200%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  /* Premium cards */
+  .card-premium {
+    @apply bg-white/80 backdrop-blur-xl border border-emerald-200/50 rounded-2xl p-6 transition-all duration-300 hover:border-emerald-400/50 hover:shadow-[0_0_40px_rgba(16,185,129,0.2)];
+  }
+
+  /* Buttons */
+  .btn-gradient-mint {
+    @apply bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-emerald-500/50 transition-all duration-300;
+  }
+
+  .btn-gradient-mint-light {
+    @apply bg-gradient-to-r from-emerald-300 to-emerald-500 text-emerald-900 font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-emerald-400/50 transition-all duration-300;
+  }
+
+  .btn-gradient-pink {
+    @apply bg-gradient-to-r from-pink-500 to-rose-600 text-white font-semibold px-6 py-3 rounded-lg hover:shadow-lg hover:shadow-pink-500/50 transition-all duration-300;
+  }
+
+  /* Text effects */
+  .text-glow-mint {
+    @apply text-emerald-500 drop-shadow-[0_0_8px_rgba(16,185,129,0.6)];
+  }
+
+  .text-glow-mint-light {
+    @apply text-emerald-400 drop-shadow-[0_0_8px_rgba(52,211,153,0.6)];
+  }
+
+  .text-glow-pink {
+    @apply text-pink-400 drop-shadow-[0_0_8px_rgba(255,0,110,0.6)];
+  }
+
+  /* Modern hover effects */
+  .hover-scale-premium {
+    @apply transition-all duration-300 hover:scale-110 hover:shadow-xl;
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+  }
+
+  /* Animated gradient borders */
+  .border-gradient-mint {
+    @apply border-2 border-transparent bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-border;
+  }
+
+  .border-gradient-mint-light {
+    @apply border-2 border-transparent bg-gradient-to-r from-emerald-300 to-emerald-500 bg-clip-border;
+  }
+
+  .border-gradient-pink {
+    @apply border-2 border-transparent bg-gradient-to-r from-pink-400 to-rose-600 bg-clip-border;
+  }
+}

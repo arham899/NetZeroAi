@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+server/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+.claude/
+.clawhub/
+hello.txt
+skills/
+scripts/
+test_bridge.js
+ISSUES_FOUND.md
+NEXT_STEPS_ROADMAP.md
+GEMINI_API_SETUP.md

@@ -1,0 +1,53 @@
+[
+  {
+    "totalKg": 6603.591936,
+    "breakdown": {
+      "transport": 982.7919360000001,
+      "energy": 5620.8,
+      "consumption": 0,
+      "waste": 0
+    },
+    "isQuick": true,
+    "id": "49ba0633-c9cf-44db-bd4a-e084013778f1",
+    "date": "2026-01-11T13:04:17.341Z",
+    "userId": "40ef70c2-7ba3-4653-acb5-f29c854dc82b"
+  },
+  {
+    "totalKg": -5091.107912647995,
+    "breakdown": {
+      "transport": 5755.080923,
+      "energy": 9113.800000000001,
+      "consumption": 5128,
+      "waste": 7.011164352000001
+    },
+    "isQuick": false,
+    "id": "556bd6de-38a2-40cb-a38d-3199f8f90945",
+    "date": "2026-01-11T13:03:23.602Z",
+    "userId": "40ef70c2-7ba3-4653-acb5-f29c854dc82b"
+  },
+  {
+    "totalKg": 15613.88067226848,
+    "breakdown": {
+      "transport": 4117.63813512,
+      "energy": 10813,
+      "consumption": 1922,
+      "waste": 6.24253714848
+    },
+    "isQuick": false,
+    "id": "df42842c-94da-430c-895b-d16570b5df10",
+    "date": "2026-01-11T12:46:54.572Z",
+    "userId": "40ef70c2-7ba3-4653-acb5-f29c854dc82b"
+  },
+  {
+    "totalKg": 19389.625142210243,
+    "breakdown": {
+      "transport": 5749.63813512,
+      "energy": 10813,
+      "consumption": 4032,
+      "waste": 40.98700709024
+    },
+    "isQuick": false,
+    "id": "e326bd4e-7cba-44bc-b68f-a129b266b8b9",
+    "date": "2026-01-09T15:09:02.909Z"
+  }
+]

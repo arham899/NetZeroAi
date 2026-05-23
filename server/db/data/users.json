@@ -1,0 +1,23 @@
+[
+  {
+    "name": "arham",
+    "email": "arhammanzoor471@gmail.com",
+    "password": "$2b$10$FiA9Qc3.aHfCeDeBa99NaOL8DbkaxiTjgrUk1t5aJ1/wFHH33LbM2",
+    "id": "40ef70c2-7ba3-4653-acb5-f29c854dc82b",
+    "createdAt": "2026-01-09T15:34:56.450Z"
+  },
+  {
+    "name": "arham2",
+    "email": "arhammanzoor472@gmail.com",
+    "password": "$2b$10$bIG8qIMq1SftbYU/QJvkgeO5bKGlBz0TlBFQk6HUhFvOoZPRlJrSC",
+    "id": "9a4b1d31-0855-458b-b2fb-09388fd5e981",
+    "createdAt": "2026-01-09T15:35:24.364Z"
+  },
+  {
+    "name": "arhsam",
+    "email": "i240640@isb.nu.edu.pk",
+    "password": "$2b$10$IlNO09Nynm4oY5p9urvGO.QNC5fdEAum7bR7tMeJL9GnnqsA9HYAG",
+    "id": "5ee8636b-49ea-453f-90a3-7916fd24920b",
+    "createdAt": "2026-01-11T12:51:50.181Z"
+  }
+]
