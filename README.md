@@ -268,8 +268,8 @@ creative-carbon-calculator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arham899/NetZero-AI-Carbon-Calculator.git
-   cd NetZero-AI-Carbon-Calculator
+   git clone https://github.com/arham899/NetZeroAi.git
+   cd NetZeroAi
    ```
 
 2. Install frontend dependencies:
@@ -295,7 +295,7 @@ creative-carbon-calculator/
    npm run dev
    ```
 
-6. Open your browser and navigate to `http://localhost:5173`.
+6. Open your browser and navigate to the local development port displayed in the terminal output.
 
 ---
 
@@ -313,8 +313,8 @@ JWT_SECRET=your_secure_jwt_secret_key_here
 # Server port (default: 5000)
 PORT=5000
 
-# Frontend URL (for CORS in production)
-FRONTEND_URL=http://localhost:5173
+# Frontend URL (for CORS)
+FRONTEND_URL=your_frontend_url
 
 # Google Gemini API key (for AI tree recommendations)
 GEMINI_API_KEY=your_gemini_api_key
