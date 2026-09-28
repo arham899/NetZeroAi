@@ -1,5 +1,26 @@
-# NetZero AI - Carbon Footprint Calculator
+<div align="center">
 
+# 🌍 NetZero AI
+
+**Measure, track and offset your carbon footprint — with AI-planned tree planting.**
+
+A full-stack sustainability platform: scroll-driven 3D Earth landing page, a 9-step emissions calculator, an analytics dashboard, and LLM-generated offset recommendations.
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+![NetZero AI](screenshots/01-hero-section.png)
+
+</div>
+
+## ✨ Highlights
+
+- **Interactive 3D Earth** — React Three Fiber + GSAP ScrollTrigger scrollytelling landing page
+- **9-step emissions wizard** — transport, energy, water/waste, industry and offsets using EPA-standard emission factors
+- **Analytics dashboard** — category breakdowns, benchmarks vs global/US averages, historical trends, CSV export
+- **AI recommendations** — Google Gemini / Groq generate location-aware tree-planting plans to offset emissions
+- **Production-minded API** — JWT auth with bcrypt, email password recovery, Helmet, CORS allow-listing, rate limiting and input validation
+
+---
 A full-stack web application for calculating, tracking, and reducing personal and organizational carbon footprints. Built with React, TypeScript, Three.js, and Node.js/Express, the platform features an interactive 3D Earth visualization, a multi-step emissions calculator, real-time global CO2 data, AI-powered tree planting recommendations, and a comprehensive sustainability dashboard.
 
 ---
